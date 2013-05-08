@@ -1,0 +1,52 @@
+1)PHP server scripts are surrounded by delimiters, which?
+	a) <script>. </script>
+	b) <?php>...</?>
+	c) <%>...</%>
+	d) <?php...?>   +
+2)How do you write "Hello world" in PHP?
+	a)echo "Helllo World";	+
+	b)Window.write("Hello world");
+	c)'Hello world'
+3)All Variables in PHP start with which symbol?
+	a)#
+	b)$	+
+	c)@
+4)Which of this is associative array?
+	a)$tab["color1"] = "red";	+
+	b)$tab[0] = "red";
+	c)$tab[index1] = "red";
+5)How to refer to fifth child in css?
+	a)selector->fifth
+	b)selector:nth-child(5)	+
+	c)selector:child(5)
+	d)selector(5)
+6)Which one is superglobal array variable?
+	a)$GLOBAL
+	b)$global_result
+	c)$_POST	+
+	d)&COOKIE
+7)What PHP version support mode mysqli?
+	a)PHP4
+	b)PHP5	+
+	c)It was from the beginning
+	d)It doesnt exist
+8)Which sql question return a result row as an enumerated array?
+	a)mysql_fetch_row();	+
+	b)mysql_fetch_array();
+	c)mysql_query();
+	d)mysql_fetch_assoc();
+9)Which one starts html5 document?
+	a)<!html5>
+	b)<doctype html5>
+	c)<html version: 5>
+	d)<!DOCTYPE html>	+
+10)What means MVC?
+	a)Its a programming language
+	b)Its framework
+	c)Its a software architecture pattern.	+
+	d)Its IDE
+11)Which one is Linux/Unix text editor/IDE?
+	a)Aptana
+	b)Notepad++
+	c)Netbeans 
+	
