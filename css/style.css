@@ -1,3 +1,141 @@
-body {
-
+body{
+	font-size: 13px;
+font-family: "Helvetica Neue", helvetica, sans-serif;
+display:block;
+background-color: black;
+color: white;
+width: 100%;
+height: 100%;
 }
+header{
+	display: block;
+	height: 52px;
+	width: 900px;
+	margin: 0 auto;
+}
+hr{
+	color: #ccc;
+	background-color: #ccc;
+	height: 2px;
+	margin: 0;
+	padding: 0;
+	clear: both;
+	
+}
+	nav{
+		display:block;
+		
+	}
+	nav ul{
+	display: block;
+	list-style-type: disc;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+	list-style: none;
+	float: left;
+	padding: 10px 0px 0px 0px;
+	}
+	header nav ul li {
+float: left;
+margin-right: 8px;
+position: relative;
+}
+.first{
+	margin-right: 8px;
+	position: relative;
+	color: blue;
+}
+li{
+display: list-item;
+text-align: -webkit-match-parent;
+}
+nav ul li.first a:hover{
+	color: blue;
+}
+header ul li a{
+	color: #888;
+	font-size: 12px;
+	text-decoration: none;
+	margin-right: 8px;
+	-webkit-transition: color 0.2s ease-in;
+	-moz-transition: color 0.2s ease-in;
+	-o-transition: color 0.2s ease-in;
+	transition: color 0.2s ease-in;
+}
+.divider{
+	color: #aaa;
+}
+#page-wrapper{
+	display: block;
+	width: 70%;
+	margin: auto;
+}
+	#elephant{
+		display: block;
+		width: 900px;
+		height: 200px;
+		background-color:#444444;
+		margin: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		 
+	}
+	article{
+		display: block;
+		text-align: center;
+		width: 900px;
+		margin: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	#wrapper{
+		width: 638px;
+		margin: 0 auto;
+		
+	}
+	.lvl{
+		display: inline-block;
+		width: 200px;
+		background-color: #111111;
+		margin: 5px;
+	}
+		.lvl-img{
+			display: block;
+			width: 150px;
+			height: 150px;
+			background-color: #000000;
+			margin: auto;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		.lvl-info{
+			display: block;
+			width: 150px;
+			background-color: #000000;
+			margin: auto;
+			margin-bottom: 10px;
+		}
+footer{
+	clear: both;
+	/*display: inline-block;*/
+	/*text-align: center;*/
+	width: 900px;
+	margin: 0 auto;
+}
+footer p{
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+	
+	
+	
+
+	
+
+
+
+
