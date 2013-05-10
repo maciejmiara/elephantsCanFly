@@ -1,4 +1,4 @@
-body{
+html, body{
 	font-size: 13px;
 	font-family: "Helvetica Neue", helvetica, sans-serif;
 	display:block;
@@ -10,13 +10,18 @@ body{
 header{
 	display: block;
 	height: 52px;
+	width: 70%;
+	margin: auto;
+	
+}
+#header_wrapper{
 	width: 900px;
 	margin: 0 auto;
 }
 hr{
 	color: #ccc;
 	background-color: #ccc;
-	height: 2px;
+	height: 1px;
 	margin: 0;
 	padding: 0;
 	clear: both;
@@ -42,6 +47,9 @@ nav{
 				margin-right: 8px;
 				position: relative;
 				}
+				header nav ul a{
+					
+				}
 .first{
 	margin-right: 8px;
 	position: relative;
@@ -52,7 +60,9 @@ display: list-item;
 text-align: -webkit-match-parent;
 }
 nav ul li.first a:hover{
-	color: blue;
+	color: #00B0EA;
+	font-weight: bold;
+
 }
 header ul li a{
 	color: #888;
@@ -92,23 +102,33 @@ header ul li a{
 	}
 	#wrapper{
 		width: 900px;
+		min-height: 600px;
 		margin: 0 auto;
 		
 	}
 	.lvl{
-		display: inline-block;
-		width: 250px;
-		background-color: #111111;
+		float: left;
+		width: 248px;
+		border: 1px solid;
+		border-radius: 7px;
+		border-color: transparent;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+		background-color: #000000;
 		margin: 23px;
+		position: relative;
+		top: 0px;
+		cursor: pointer;
 	}
+	
 		.lvl-img{
 			display: block;
-			width: 200px;
-			height: 200px;
-			background-color: #000000;
+			border-radius: 7px;
+			width: 248px;
+			height: 248px;
+			background-color: #222222;
 			margin: auto;
-			margin-top: 10px;
-			margin-bottom: 10px;
 		}
 			#intern{
 				/*background-image: url("../gfx/nerdcap.jpg");*/
@@ -119,7 +139,16 @@ header ul li a{
 			padding: 5px;
 			background-color: #000000;
 			margin: auto;
+			margin-top: 10px;
 			margin-bottom: 10px;
+		}
+			.lvl-info p{
+				font-size: 13px;
+				line-height: 20px;
+				color: #aaa;
+			}
+		#button{
+			clear:both;
 		}
 		.button {
 			margin-top: 25px;
@@ -154,11 +183,35 @@ header ul li a{
 footer{
 	clear: both;
 	width: 900px;
+	height: 50px;
 	margin: 0 auto;
 }
 footer p{
 	text-align: center;
-	margin-bottom: 25px;
+}
+/*jQuerry classes */
+.color_anim_1 {
+    border-color: #d4d4d4;
+    /* Firefox */
+    -moz-transition: all 0.3s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.3s ease-in;
+    /* Opera */
+    -o-transition: all 0.3s ease-in;
+    /* Standard */
+    transition: all 0.3s ease-in;
+}
+.color_anim_2{
+	border-color: transparent;
+	  /* Firefox */
+    -moz-transition: all 0.3s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.3s ease-in;
+    /* Opera */
+    -o-transition: all 0.3s ease-in;
+    /* Standard */
+    transition: all 0.3s ease-in;
+	
 }
 
 	
