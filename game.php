@@ -55,19 +55,27 @@
 					<div id="wrapper">
 						<div id="game">
 							<div id="question">
-								<p>PytaniePytaniePytaniePytaniePytaniePytani dsadsad ePytaniePytaniePytaniePytanieP ytaniePytaniePytaniePytaniePytaniePytaniePytaniePytaniePyt aniePytaniePytaniePytaniePytanie</p>
+								<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin feugiat justo, ut placerat lorem pellentesque a. Etiam condimentum tortor nec est porttitor nec cursus augue aliquam. Maecenas massa lacus, fringilla sit amet dapibus non,   </p>
 							</div>
 							<hr />
 							<div id="answer">
-								<div id="options">
-									Odpowiedzi
+								<div class="options">
+									<ul>
+										<li>a) Aliquam lorem turpis, tristique vitae pulvinar sit amet</li>
+										<li>b) Aliquam lorem turpis, tristique vitae pulvinar sit amet</li>
+										<li>c) Aliquam lorem turpis, tristique vitae pulvinar sit amet</li>
+										<li>d) Aliquam lorem turpis, tristique vitae pulvinar sit amet</li>
+									</ul>
 								</div>
 								<div id="button">
 							 		<p><a href="#" class="button">Next</a></p>
 								</div>
 							</div>
 							<div id="listing">
-								listing
+								<div class="options" id="listing_options">
+									listing
+								</div>
+								
 							</div>
 					        
 							<div id="progress_bar">

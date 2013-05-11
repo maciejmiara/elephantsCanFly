@@ -131,22 +131,51 @@ header ul li a{
 			#answer{
 				width: 320px;
 				height: 250px; 
-				background-color: #762357;
+				background-color: #222;
 				margin-left: 30px;
 				float: left;
 				border-radius: 7px;
 				margin-right: 100px;
 				margin-bottom: 20px;
 			}
-			#options{
+			.options{
 				clear: both;
 				width: 300px;
 				height: 180px;
 				margin: 10px auto;
 				margin-bottom: 0px;
 				background-color: #111;
-				
+				text-align: left;
+				border-radius: 7px;
 			}
+				.options ul{
+					display: list-item;
+					list-style-type: disc;
+					-webkit-margin-before: 1em;
+					-webkit-margin-after: 1em;
+					-webkit-margin-start: 0px;
+					-webkit-margin-end: 0px;
+					-webkit-padding-start: 40px;
+					list-style: none;
+					padding: 10px 0px 0px 0px;
+				}
+					.options ul li{
+						margin-top: 20px;
+						margin-left: 20px;
+						font-size: 12px;
+						-webkit-transition: color 0.2s ease-in;
+						-moz-transition: color 0.2s ease-in;
+						-o-transition: color 0.2s ease-in;
+						transition: color 0.2s ease-in;
+						cursor: pointer;
+					}
+					.options ul li:first-child{
+						margin-top: 5px;
+					}
+					.options ul li:hover{
+						color: #00B0EA;
+						font-weight: bold;
+					}
 				#button{
 				clear: both;
 				margin: 15px auto;
@@ -185,10 +214,13 @@ header ul li a{
 			#listing{
 				width: 320px;
 				height: 250px;
-				background-color: #278312;
+				background-color: #222;
 				border-radius: 7px;
 				float:left;
 			}
+				#listing_options{
+					height: 220px;
+				}
 			#progress_bar{
 				width: 750px;
 				height: 10px;
