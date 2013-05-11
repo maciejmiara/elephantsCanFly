@@ -55,7 +55,7 @@
 					<div id="wrapper">
 						<div id="game">
 							<div id="question">
-								<p>PytaniePytaniePytaniePytaniePytaniePytani dsadsad ePytaniePytaniePytaniePytaniePytaniePytaniePytaniePytaniePytaniePytaniePytaniePytaniePytaniePytaniePytaniePytaniePytanie</p>
+								<p>PytaniePytaniePytaniePytaniePytaniePytani dsadsad ePytaniePytaniePytaniePytanieP ytaniePytaniePytaniePytaniePytaniePytaniePytaniePytaniePyt aniePytaniePytaniePytaniePytanie</p>
 							</div>
 							<hr />
 							<div id="answer">
